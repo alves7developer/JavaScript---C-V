@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de letras</title>
+    <style>
+        body {
+            font: Normal 20pt Arial;
+            color: #ffffff;
+            background-color: #000000;
+            margin: 20px;
+        }
+    </style>  
+</head>
+<body>
+
+    <script>
+    var nome = window.prompt('Qual o seu nome?'); 
+    document.writeln(`Seu nome tem <strong>${nome.length}</strong> letras.`);
+    document.writeln(`<br>Seu nome em maiúsculas seria ${nome.toUpperCase()}</br>`);
+    document.writeln(`<br>Seu nome em minúsculas seria ${nome.toLowerCase()}</br>`);
+    </script>
+</body>
+</html>
